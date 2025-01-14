@@ -29,6 +29,14 @@ Then run the `OpenGLTutorialExe` executable inside the build folder.
 Alternatively, just run the `.bat`(windows) or `.sh` (linux) files in the main folder to automate this process.
 
 The following window should appear if everything is working correctly.
-![image](https://github.com/user-attachments/assets/e50f2184-188d-4c00-aff1-a116ed79504d)
+![image](readme_resources/demo_image.jpg)
 
+## Exercise:
+The `exercise` folder provides a starting point for the exercise.
 
+### Tasks
+1. Add a uniform called `cameraMatrix` and set it to scale the world co-ordinates from [(-1, -1), (1,1)] to [(-width/2, -height/2), (+width/2, +height/2)]   
+2. Take input `n` from the user and create a `n` sided polygon (define its vertices and indices)  
+3. Make the polygon rotate and translate from left to right (reversing direction on going out of bounds)
+
+The output should look something like this
