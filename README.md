@@ -39,5 +39,5 @@ The `exercise` folder provides a starting point for the exercise.
 2. Take input `n` from the user and create a `n` sided polygon (define its vertices and indices)  
 3. Make the polygon rotate and translate from left to right (reversing direction on going out of bounds)
 
-The output should look something like this
-![loading animation](readme_resources/exercise_soln.gifexercise_soln.gif)
+The output should look something like this  
+![loading animation](readme_resources/exercise_soln.gif)
