@@ -43,7 +43,7 @@ int main() {
     // Create a windowed mode window and its OpenGL context
     int height = 600;
     int width = 800;
-    GLFWwindow* window = glfwCreateWindow(width, height, "Demo", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(width, height, "Exercise", NULL, NULL);
     if (!window) {
         std::cerr << "Failed to create GLFW window" << std::endl;
         glfwTerminate();
@@ -119,7 +119,7 @@ int main() {
     float prevTime = glfwGetTime();
     float deltaTime;
     
-    float velocity = 0.8f; // Velocity to move object
+    float velocity = 0.4f; // Velocity to move object
 
     // Render loop
     while (!glfwWindowShouldClose(window)) {
@@ -134,8 +134,6 @@ int main() {
 
         // Update the values
         position[0] += velocity * deltaTime;
-        if(position[0] >= 1.0f) velocity = -0.8f;
-        if(position[0] <= -1.0f) velocity = +0.8f;
 
         // Bind the Shader and set Uniforms
         glUseProgram(shaderProgram);

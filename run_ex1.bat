@@ -1,7 +1,7 @@
 @echo off
 REM This script configures and builds the project using CMake and GCC.
 
-cd exercise/ex1
+cd exercise
 REM Navigate to the build directory
 if not exist build (
     mkdir build
@@ -19,4 +19,4 @@ OpenGLTutorialExe.exe
 
 
 REM Return to the original directory
-cd ../../..
+cd ../..
