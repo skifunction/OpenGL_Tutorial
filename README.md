@@ -3,7 +3,7 @@
 ## Steps to Get Started: 
 ### 1. Install GCC Compiler
 ### 2. Install CMake
-### 3. Clone this Repository (all branches):
+### 3. Clone this Repository:
 `git clone https://github.com/lighterbird/OpenGL_Tutorial.git`
 ### 4. For linux also install the following packages using:
 ```sh
