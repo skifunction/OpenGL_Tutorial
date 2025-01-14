@@ -20,8 +20,7 @@ Navigate to the respective folder to run, and then use the following commands:
 ```sh
 mkdir build
 cd build
-cmake -G "MinGW Makefiles" ..       (windows)
-cmake ..        (Mac and linux)
+cmake -G "MinGW Makefiles" ..  (windows)    OR   cmake ..        (Mac and linux)
 cmake --build .
 ```
 Then run the `OpenGLTutorialExe` executable inside the build folder.
