@@ -25,7 +25,7 @@ cmake --build .
 ```
 Then run the `OpenGLTutorialExe` executable inside the build folder.
 
-Alternatively, just run the `.bat`(windows) or `.sh` (linux) files in the main folder to automate this process.
+<>(Alternatively, just run the `.bat`(windows) or `.sh` (linux) files in the main folder to automate this process.)
 
 The following window should appear if everything is working correctly.
 ![image](readme_resources/demo_image.jpg)
